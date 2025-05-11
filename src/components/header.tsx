@@ -26,7 +26,7 @@ const Header: React.FC = () => {
   return (
     <header>
       <div className="header-content">
-        {/* Container da logo e botão */}
+        {/* Container da logo e botão de configurações */}
         <div className="header-left">
           {/* Logo da Ford */}
           <img 
