@@ -160,31 +160,28 @@ OBS: Se está usando Linux ou MacOS mas quer executar esses batchs mesmo assim a
 ### Listagem de funcionários
 
 ### Exibição de consultas para apresentar:
-    - Quantos cargos únicos existem e quais são eles
-    - Os top 5 maiores salários
-    - Os top 5 menores salários
-    - A média salarial por cargo
-    - Funcionários com os maiores salários por cargo
+  - Quantos cargos únicos existem e quais são eles
+  - Os top 5 maiores salários
+  - Os top 5 menores salários
+  - A média salarial por cargo
+  - Funcionários com os maiores salários por cargo
 
 ## 🔍 Funcionalidades do Front-End
 
 ### Interface do Usuário
-
-    - Design responsivo que se adapta a diferentes tamanhos de tela
-    - Layout minimalista e intuitivo
-    - Paleta de cores emblemática
-    - Apresentação visual dos cargos organizados por cores
+  - Design responsivo que se adapta a diferentes tamanhos de tela
+  - Layout minimalista e intuitivo
+  - Paleta de cores emblemática
+  - Apresentação visual dos cargos organizados por cores
 
 ### Configurações e Acessibilidade
-
-    - Uso da fonte Lexend em toda a aplicação, que foi desenvolvida especialmente para facilitar a leitura de usuários disléxicos e gerar conforto visual para quem a lê.
-    - Utilização de ARIA Labels em todos os elementos visuais da aplicação que não consistem em puro texto, com o intuito de facilitar o uso de programas de leitura por voz para pessoas legalmente cegas/não alfabetizadas.
-    - Configuração de tamanho de fonte nativa para facilitar a navegação na interface para pessoas com deficiências visuais. Isso garante uma responsividade de tela consistente até com personalizações adicionais.
-    - Composição de paleta de cores que segue as Diretrizes de Acessibilidade para Conteúdo Web (WCAG). Isso significa que pessoas com dautonismo serão capazes de distinguir o contraste de todos os blocos visuais da aplicação.
+  - Uso da fonte Lexend em toda a aplicação, que foi desenvolvida especialmente para facilitar a leitura de usuários disléxicos e gerar conforto visual para quem a lê.
+- Utilização de ARIA Labels em todos os elementos visuais da aplicação que não consistem em puro texto, com o intuito de facilitar o uso de programas de leitura por voz para pessoas legalmente cegas/não alfabetizadas.
+  - Configuração de tamanho de fonte nativa para facilitar a navegação na interface para pessoas com deficiências visuais. Isso garante uma responsividade de tela consistente até com personalizações adicionais.
+  - Composição de paleta de cores que segue as Diretrizes de Acessibilidade para Conteúdo Web (WCAG). Isso significa que pessoas com dautonismo serão capazes de distinguir o contraste de todos os blocos visuais da aplicação.
 
 
 ## 📝 Notas
-
-    - O SQLite já vem incluído no Python, não é necessário instalar separadamente
-    - A extensão SQLite do VS Code é recomendada para melhor visualização e gerenciamento do banco de dados
-    - Os arquivos do cache e do company.db não são renderizados para editor de texto
+  - O SQLite já vem incluído no Python, não é necessário instalar separadamente
+  - A extensão SQLite do VS Code é recomendada para melhor visualização e gerenciamento do banco de dados
+  - Os arquivos do cache e do company.db não são renderizados para editor de texto
