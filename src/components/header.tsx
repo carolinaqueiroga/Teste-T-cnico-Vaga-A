@@ -26,32 +26,35 @@ const Header: React.FC = () => {
   return (
     <header>
       <div className="header-content">
-        {/* Logo da Ford */}
-        <img 
-          src={Logo} 
-          alt="Logo da Ford" 
-          className="logo" 
-          role="img"
-          aria-label="Logo da Ford"
-        />
-        {/* Botão para abrir o modal de configurações e acessibilidade */}
-        <button 
-          className="settings-button"
-          onClick={() => setIsSettingsOpen(true)}
-          aria-label="Abrir configurações e acessibilidade"
-          aria-expanded={isSettingsOpen}
-          aria-controls="settings-modal"
-          aria-haspopup="dialog"
-        >
-          {isSmallScreen ? (
-            <>
-              Configurações<br />
-              e Acessibilidade
-            </>
-          ) : (
-            "Configurações e Acessibilidade"
-          )}
-        </button>
+        {/* Container da logo e botão */}
+        <div className="header-left">
+          {/* Logo da Ford */}
+          <img 
+            src={Logo} 
+            alt="Logo da Ford" 
+            className="logo" 
+            role="img"
+            aria-label="Logo da Ford"
+          />
+          {/* Botão para abrir o modal de configurações e acessibilidade */}
+          <button 
+            className="settings-button"
+            onClick={() => setIsSettingsOpen(true)}
+            aria-label="Abrir configurações e acessibilidade"
+            aria-expanded={isSettingsOpen}
+            aria-controls="settings-modal"
+            aria-haspopup="dialog"
+          >
+            {isSmallScreen ? (
+              <>
+                Configurações<br />
+                e Acessibilidade
+              </>
+            ) : (
+              "Configurações e Acessibilidade"
+            )}
+          </button>
+        </div>
         {/* Título de boas-vindas */}
         <h1 className="Greeting">
           {isSmallScreen ? (
