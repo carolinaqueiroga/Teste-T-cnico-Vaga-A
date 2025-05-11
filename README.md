@@ -180,8 +180,22 @@ OBS: Se está usando Linux ou MacOS mas quer executar esses batchs mesmo assim a
   - Configuração de tamanho de fonte nativa para facilitar a navegação na interface para pessoas com deficiências visuais. Isso garante uma responsividade de tela consistente até com personalizações adicionais.
   - Composição de paleta de cores que segue as Diretrizes de Acessibilidade para Conteúdo Web (WCAG). Isso significa que pessoas com dautonismo serão capazes de distinguir o contraste de todos os blocos visuais da aplicação.
 
-
 ## 📝 Notas
   - O SQLite já vem incluído no Python, não é necessário instalar separadamente
   - A extensão SQLite do VS Code é recomendada para melhor visualização e gerenciamento do banco de dados
   - Os arquivos do cache e do company.db não são renderizados para editor de texto
+
+## ​🎀​ Observações Adicionais
+- Eu fiz a interface sem ajuda de frameworks de UIUX. Meu design é autoral e passou por várias atualizações durante o processo.
+- Construí as telas com o auxílio do Figma
+- Aqui estão fotos de duas delas:
+  ![image](https://github.com/user-attachments/assets/dbf5abb5-4013-4ba4-8893-add54c9db9aa)
+  ![image](https://github.com/user-attachments/assets/3e286ee3-24c4-4c40-85f5-32e712d34fb1)
+
+- Por fim, agradeço imensamente pela oportunidade de participar da etada desse processo seletivo.
+- Uma frase que levei muito em consideração durante essa semana:
+
+## “A user interface is like a joke. If you have to explain it, it’s not that good.” - Martin LeBlanc, CXO da Freepik e fundador do Iconfinder
+
+
+
