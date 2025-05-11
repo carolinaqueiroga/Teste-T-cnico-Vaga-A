@@ -1,0 +1,220 @@
+/*Estilização do bloco body da interface*/
+
+/* Container geral */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Título da página */
+.page-title {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #13265b;
+  margin: 0 2rem 2rem 2rem;
+}
+
+/* Grid para apresentar a primeira linha de respostas*/
+.salary-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 0 2rem 1rem 2rem;
+}
+
+/* Grid para apresentar a segunda linha de respostas */
+.roles-comparison {
+  display: grid;
+  grid-template-columns: 1.2fr 1.2fr 1.6fr;
+  gap: 1rem;
+  margin: 0 2rem 1rem 2rem;
+}
+
+/* Estilo dos containers das tabelas */
+.card {
+  border-radius: 24px;
+  background: #FFF;
+  padding: 1.2rem 1.5rem 0.4rem 1.5rem;
+  overflow-x: auto;
+}
+
+.card h2 {
+  color: #1E3A8A;
+  margin-bottom: 1rem;
+}
+
+/* Flags para exibição de cargos */
+.role-flag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  min-width: 100px;
+  text-align: center;
+  background-color: rgb(255 107 107 / 0.2);
+}
+
+/* Estilo das tabelas */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1rem 0;
+  background-color: white;
+  border: 1px solid #F5F4F1;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #F5F4F1;
+}
+
+td:nth-child(2) {
+  min-width: 150px;
+}
+
+th:first-child {
+  border-top-left-radius: 12px;
+}
+
+th:last-child {
+  border-top-right-radius: 12px;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
+
+th {
+  background-color: #f5f4f141;
+  font-weight: 600;
+  color: #4B5563;
+  border-bottom: 1px solid #F5F4F1;
+}
+
+td {
+  color: #4b5563;
+}
+
+/* Responsividade do layout dos grids */
+@media (max-width: 768px) {
+  .salary-comparison,
+  .roles-comparison {
+    grid-template-columns: 1fr;
+  }
+  
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+/* Estilo para a mensagem de erro */
+.card.error {
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.card.error h2 {
+  color: #1B357E;
+  margin-bottom: 1rem;
+}
+
+.card.error p {
+  color: #4B5563;
+  font-size: 1.1rem;
+}
+
+/* Layouts alternativos para outros tamanhos de tela */
+@media (max-width: 1400px) {
+  .roles-comparison {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1200px) {
+  .roles-comparison {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card.highest-salaries {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 992px) {
+  .salary-comparison,
+  .roles-comparison {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .card.highest-salaries {
+    grid-column: span 1;
+  }
+
+  .page-title {
+    font-size: 1.5rem;
+    margin: 0 1rem 1.5rem 1rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 1.3rem;
+    margin: 0 0.8rem 1rem 0.8rem;
+  }
+
+  .salary-comparison,
+  .roles-comparison {
+    margin: 0 0.8rem 1rem 0.8rem;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .role-flag {
+    min-width: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 1.2rem;
+    margin: 0 0.5rem 0.8rem 0.5rem;
+  }
+
+  .salary-comparison,
+  .roles-comparison {
+    margin: 0 0.5rem 0.8rem 0.5rem;
+  }
+
+  .card {
+    padding: 0.8rem;
+  }
+
+  .card h2 {
+    font-size: 1.1rem;
+  }
+
+  th, td {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}

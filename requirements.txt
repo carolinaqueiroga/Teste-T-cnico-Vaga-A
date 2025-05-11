@@ -1,0 +1,26 @@
+# Dependências do backend
+# OBS: Escolhi o Flask porque é um framework que facilita criar aplicações web pequenas como essa com API REST
+flask==3.0.2
+flask-cors==4.0.0
+
+# OBS: O SQLite já está incluído na biblioteca padrão do Python, 
+# então não tem que instalar separadamente, mas instalar a extensão "SQLite" do VS Code vai ajudar na visualização
+
+
+# Dependências do frontend
+node>=18.0.0
+npm>=9.0.0
+
+# Pacotes Node.js necessários (instalar via npm):
+# - react@^19.1.0
+# - react-dom@^19.1.0
+# - better-sqlite3@^11.9.1  # Wrapper do SQLite para Node.js
+# - vite@^6.3.5
+# - @vitejs/plugin-react@^4.4.1
+# - eslint@^9.25.0
+# - @eslint/js@^9.25.0
+# - eslint-plugin-react-hooks@^5.2.0
+# - eslint-plugin-react-refresh@^0.4.19
+# - globals@^16.0.0
+# - @types/react@^19.1.2
+# - @types/react-dom@^19.1.2 

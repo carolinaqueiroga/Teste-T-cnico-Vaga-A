@@ -1,0 +1,16 @@
+/* Reset CSS - remove margens e padding padrão de todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilização global da página (afeta todos os blocos) */
+body {
+  /* Cor de fundo principal */
+  background: #F5F4F1;
+  /* Fonte padrão do sistema */
+  font-family: 'Lexend', sans-serif;
+  /* Garante que o body ocupe toda a altura da viewport */
+  min-height: 100vh;
+} 
