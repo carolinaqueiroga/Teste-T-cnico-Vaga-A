@@ -166,7 +166,7 @@ OBS: Se está usando Linux ou MacOS mas quer executar esses batchs mesmo assim a
   - A média salarial por cargo
   - Funcionários com os maiores salários por cargo
 
-## 🔍 Funcionalidades do Front-End
+## Funcionalidades do Front-End
 
 ### Interface do Usuário
   - Design responsivo que se adapta a diferentes tamanhos de tela
