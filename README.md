@@ -2,7 +2,7 @@
 
 Interface web para apresentação de pesquisas da tabela de funcionários do banco de dados de uma empresa fictícia. Desenvolvido com React, Flask e SQLite por Ana Carolina Queiroga Camboim.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Frontend
 - React
@@ -15,7 +15,7 @@ Interface web para apresentação de pesquisas da tabela de funcionários do ban
 - SQLite (biblioteca padrão do Python)
 - Flask-CORS
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 - Python 3.x
 - Node.js 18.x ou superior
@@ -23,7 +23,7 @@ Interface web para apresentação de pesquisas da tabela de funcionários do ban
 - VS Code (recomendado)
   - Extensão SQLite (recomendada para visualização do banco de dados)
 
-## 🔧 Instalação
+## Instalação
 
 1. Clone o repositório
 ```bash
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 npm install
 ```
 
-## 🚀 Executando o Projeto
+## Executando o Projeto
 
 ### Backend
 Você pode iniciar o backend de duas maneiras:
@@ -72,7 +72,7 @@ OBS: Se está usando Linux ou MacOS mas quer executar esses batchs mesmo assim a
     - Para Linux: https://guidetux.com.br/comando-batch-no-linux/
     - Para MacOS: https://cleanmymac.com/blog/run-bat-files-mac
 
-## 📦 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 ├── public/                    # Arquivos públicos
@@ -113,7 +113,7 @@ OBS: Se está usando Linux ou MacOS mas quer executar esses batchs mesmo assim a
 
 ```
 
-## 👩‍🏫​ Explicando a estrutura do Banco de Dados
+## Explicando a estrutura do Banco de Dados
 
 - statements.sql:
     - É o arquivo que define a estrutura do banco de dados. Contém o comando CREATE TABLE que cria a tabela workers com as colunas:
@@ -155,7 +155,7 @@ OBS: Se está usando Linux ou MacOS mas quer executar esses batchs mesmo assim a
         - As funções em database.py permitem consultar os dados
         - test.py demonstra como usar essas funções
 
-## 🔍 Funcionalidades do Back-End
+## Funcionalidades do Back-End
 
 ### Listagem de funcionários
 
@@ -180,12 +180,12 @@ OBS: Se está usando Linux ou MacOS mas quer executar esses batchs mesmo assim a
   - Configuração de tamanho de fonte nativa para facilitar a navegação na interface para pessoas com deficiências visuais. Isso garante uma responsividade de tela consistente até com personalizações adicionais.
   - Composição de paleta de cores que segue as Diretrizes de Acessibilidade para Conteúdo Web (WCAG). Isso significa que pessoas com dautonismo serão capazes de distinguir o contraste de todos os blocos visuais da aplicação.
 
-## 📝 Notas
+## Notas
   - O SQLite já vem incluído no Python, não é necessário instalar separadamente
   - A extensão SQLite do VS Code é recomendada para melhor visualização e gerenciamento do banco de dados
   - Os arquivos do cache e do company.db não são renderizados para editor de texto
 
-## ​🎀​ Observações Adicionais
+## ​Observações Adicionais
 - Eu fiz a interface sem ajuda de frameworks de UIUX. Meu design é autoral e passou por várias atualizações durante o processo.
 - Construí as telas com o auxílio do Figma
 - Aqui estão fotos de duas delas:
@@ -193,9 +193,6 @@ OBS: Se está usando Linux ou MacOS mas quer executar esses batchs mesmo assim a
   ![image](https://github.com/user-attachments/assets/3e286ee3-24c4-4c40-85f5-32e712d34fb1)
 
 - Por fim, agradeço imensamente pela oportunidade de participar da etada desse processo seletivo.
-- Uma frase que levei muito em consideração durante essa semana:
-
-## “A user interface is like a joke. If you have to explain it, it’s not that good.” - Martin LeBlanc, CXO da Freepik e fundador do Iconfinder
 
 
 
